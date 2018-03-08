@@ -33,10 +33,9 @@ public:
 		{
 		res += numTrees(i)*numTrees(j);
 		}*/
-		vector<int> helpers;
-		int cur = 0;
-		helper(helpers, cur, n);
-		return helpers[helpers.size() - 1];
+		if (true)
+			int a = 0;
+		cout << a;
 
 	}
 };
